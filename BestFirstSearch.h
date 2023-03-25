@@ -19,7 +19,7 @@ class BestFirstSearch {
 
 protected:
 
-    /// Make sure you increment this every time you 'expand' a node, by getting it successors and putting them on the queue        
+          
     int nodes = 0;
     priority_queue<unique_ptr<Searchable>,vector<unique_ptr<Searchable>>,compareLessThan> Q;
     
@@ -58,6 +58,5 @@ public:
 };
 
 
-// Do not edit below this line
 
 #endif

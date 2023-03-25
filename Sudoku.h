@@ -29,7 +29,7 @@ using std::setw;
 
 #include <algorithm>
 using std::max;
-// TODO: Your Sudoku class goes here:
+
 
 class Sudoku : public Searchable{
 private:

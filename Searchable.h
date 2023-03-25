@@ -9,7 +9,7 @@ using std::vector;
 using std::unique_ptr;
 using std::ostream;
 
-// Don't edit this file
+
 
 class Searchable {
 
